@@ -40,6 +40,7 @@ if(MSVC)
 endif()
 
 add_library(audioengine
+	src/audioengine/audioengine.h
 	src/audioengine/AudioMaster.h
 	src/audioengine/Source.h
 

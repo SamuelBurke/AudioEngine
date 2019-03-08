@@ -1,3 +1,6 @@
+#ifndef AUDIOENGINE_AUDIOMASTER_H
+#define AUDIOENGINE_AUDIOMASTER_H
+
 #include <AL/al.h>
 #include <AL/alc.h>
 
@@ -18,3 +21,5 @@ private:
 };
 
 }
+
+#endif
