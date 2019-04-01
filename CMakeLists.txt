@@ -48,6 +48,21 @@ add_library(audioengine
 	src/audioengine/Source.cpp
 )
 
+add_library(foundations
+	src/foundations/fundamentals.h
+	src/foundations/Foundations.h
+	src/foundations/Entity.h
+	src/foundations/Component.h
+	src/foundations/Window.h
+	src/foundations/Environment.h
+
+	src/foundations/Foundations.cpp
+	src/foundations/Entity.cpp
+	src/foundations/Component.cpp
+	src/foundations/Window.cpp
+	src/foundations/Environment.cpp
+)
+
 if(MSVC)
 	target_link_libraries(audioengine
 		SDL2 glew32 opengl32 OpenAL32 ogg vorbis vorbisfile
@@ -62,7 +77,7 @@ add_executable(game
 	src/game/main.cpp
 )
 
-target_link_libraries(game audioengine)
+target_link_libraries(game foundations audioengine)
 
 if(MSVC)
 	add_custom_command(TARGET game POST_BUILD
