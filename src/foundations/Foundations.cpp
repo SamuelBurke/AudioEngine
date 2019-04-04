@@ -19,6 +19,8 @@ void Foundations::Loop()
 
 	while (!m_quit)
 	{
+		m_input.Update();
+
 		SDL_Event e = { 0 };
 
 		while (SDL_PollEvent(&e))
@@ -44,6 +46,11 @@ void Foundations::Loop()
 		}
 
 		m_window.SwapWin();
+
+		if (m_input.isKeyPressed(SDL_SCANCODE_ESCAPE))
+		{
+			CleanUp();
+		}
 
 	}
 }

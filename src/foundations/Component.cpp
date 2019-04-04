@@ -19,7 +19,7 @@ void Component::OnBegin()
 
 void Component::OnUpdate(float _deltaTime)
 {
-	std::cout << "working" << std::endl;
+	//std::cout << "working" << std::endl;
 }
 
 void Component::OnDisplay()

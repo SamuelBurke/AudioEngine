@@ -7,6 +7,7 @@
 #include "Entity.h"
 #include "Window.h"
 #include "Environment.h"
+#include "Input.h"
 
 namespace AudioEngine
 {
@@ -32,6 +33,7 @@ private:
 
 	Window m_window;
 	Environment m_environment;
+	Input m_input;
 };
 
 template <typename T>

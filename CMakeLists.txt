@@ -53,14 +53,30 @@ add_library(foundations
 	src/foundations/Foundations.h
 	src/foundations/Entity.h
 	src/foundations/Component.h
+	src/foundations/Camera.h
+	src/foundations/Transform.h
 	src/foundations/Window.h
 	src/foundations/Environment.h
+	src/foundations/Input.h
 
 	src/foundations/Foundations.cpp
 	src/foundations/Entity.cpp
 	src/foundations/Component.cpp
+	src/foundations/Camera.cpp
+	src/foundations/Transform.cpp
 	src/foundations/Window.cpp
 	src/foundations/Environment.cpp
+	src/foundations/Input.cpp
+)
+
+add_executable(game
+	src/game/main.cpp
+
+	src/game/Snake.h
+	src/game/Player.h
+
+	src/game/Snake.cpp
+	src/game/Player.cpp
 )
 
 if(MSVC)
@@ -73,9 +89,6 @@ else()
 )
 endif()
 
-add_executable(game
-	src/game/main.cpp
-)
 
 target_link_libraries(game foundations audioengine)
 
