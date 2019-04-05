@@ -1,8 +1,8 @@
 #include "Foundations.h"
 
-using namespace AudioEngine;
+using namespace Foundation;
 
-std::shared_ptr<Foundations> AudioEngine::Foundations::Init()
+std::shared_ptr<Foundations> Foundation::Foundations::Init()
 {
 	std::shared_ptr<Foundations> rtn = std::make_shared<Foundations>();
 
@@ -58,6 +58,8 @@ void Foundations::Loop()
 void Foundations::CleanUp()
 {
 	m_quit = true;
+
+
 }
 
 std::shared_ptr<Entity> Foundations::AddEntity()

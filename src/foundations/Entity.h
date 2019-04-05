@@ -1,5 +1,5 @@
-#ifndef AUDIOENGINE_ENTITY_H
-#define AUDIOENGINE_ENTITY_H
+#ifndef FOUNDATION_ENTITY_H
+#define FOUNDATION_ENTITY_H
 
 #include "Component.h"
 
@@ -12,7 +12,7 @@
 	rtn->m_began = false;   \
 	m_components.push_back(rtn);
 
-namespace AudioEngine
+namespace Foundation
 {
 class Foundations;
 
@@ -61,4 +61,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_ENTITY_H
+#endif // !FOUNDATION_ENTITY_H

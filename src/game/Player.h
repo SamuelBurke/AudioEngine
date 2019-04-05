@@ -11,7 +11,7 @@ public:
 	void Update(float _deltaTime);
 
 private:
-	AudioEngine::Input m_input;
+	Foundation::Input m_input;
 };
 
 #endif // !SNAKE_H

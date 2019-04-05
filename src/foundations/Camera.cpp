@@ -1,6 +1,6 @@
 #include "Camera.h"
 
-using namespace AudioEngine;
+using namespace Foundation;
 
 void Camera::OnInit()
 {

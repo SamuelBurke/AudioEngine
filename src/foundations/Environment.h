@@ -1,7 +1,7 @@
-#ifndef AUDIOENGINE_ENVIRONMENT_H
-#define AUDIOENGINE_ENVIRONMENT_H
+#ifndef FOUNDATION_ENVIRONMENT_H
+#define FOUNDATION_ENVIRONMENT_H
 
-namespace AudioEngine
+namespace Foundation
 {
 class Environment
 {
@@ -15,4 +15,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_ENVIRONMENT_H
+#endif // !FOUNDATION_ENVIRONMENT_H

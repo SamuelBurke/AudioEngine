@@ -55,6 +55,10 @@ add_library(foundations
 	src/foundations/Component.h
 	src/foundations/Camera.h
 	src/foundations/Transform.h
+	src/foundations/VertexBuffer.h
+	src/foundations/VertexArray.h
+	src/foundations/Shader.h
+	src/foundations/Texture.h
 	src/foundations/Window.h
 	src/foundations/Environment.h
 	src/foundations/Input.h
@@ -64,6 +68,10 @@ add_library(foundations
 	src/foundations/Component.cpp
 	src/foundations/Camera.cpp
 	src/foundations/Transform.cpp
+	src/foundations/VertexBuffer.cpp
+	src/foundations/VertexArray.cpp
+	src/foundations/Shader.cpp
+	src/foundations/Texture.cpp
 	src/foundations/Window.cpp
 	src/foundations/Environment.cpp
 	src/foundations/Input.cpp

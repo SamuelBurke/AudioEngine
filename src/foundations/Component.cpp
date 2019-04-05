@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-using namespace AudioEngine;
+using namespace Foundation;
 
 Component::~Component()
 {

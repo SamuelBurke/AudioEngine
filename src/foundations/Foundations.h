@@ -1,5 +1,5 @@
-#ifndef AUDIOENGINE_FOUNDATIONS_H
-#define AUDIOENGINE_FOUNDATIONS_H
+#ifndef FOUNDATION_FOUNDATIONS_H
+#define FOUNDATION_FOUNDATIONS_H
 
 #include <memory>
 #include <vector>
@@ -9,7 +9,7 @@
 #include "Environment.h"
 #include "Input.h"
 
-namespace AudioEngine
+namespace Foundation
 {
 
 class Foundations
@@ -52,4 +52,4 @@ inline std::shared_ptr<T> Foundations::GetComponent()
 
 }
 
-#endif // !AUDIOENGINE_FOUNDATIONS_H
+#endif // !FOUNDATION_FOUNDATIONS_H

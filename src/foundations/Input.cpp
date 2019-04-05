@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-using namespace AudioEngine;
+using namespace Foundation;
 
 void Input::Update()
 {

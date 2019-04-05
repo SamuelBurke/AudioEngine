@@ -6,7 +6,7 @@
 
 #include <memory>
 
-class Snake : public AudioEngine::Component
+class Snake : public Foundation::Component
 {
 public:
 	void OnInit() override;

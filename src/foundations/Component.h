@@ -1,9 +1,9 @@
-#ifndef AUDIOENGINE_COMPONENT_H
-#define AUDIOENGINE_COMPONENT_H
+#ifndef FOUNDATION_COMPONENT_H
+#define FOUNDATION_COMPONENT_H
 
 #include <memory>
 
-namespace AudioEngine
+namespace Foundation
 {
 class Entity;
 class Foundations;
@@ -29,4 +29,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_COMPONENT_H
+#endif // !FOUNDATION_COMPONENT_H

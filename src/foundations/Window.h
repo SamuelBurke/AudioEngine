@@ -1,9 +1,9 @@
-#ifndef AUDIOENGINE_WINDOW_H
-#define AUDIOENGINE_WINDOW_H
+#ifndef FOUNDATION_WINDOW_H
+#define FOUNDATION_WINDOW_H
 
 #include <SDL2/SDL.h>
 
-namespace AudioEngine
+namespace Foundation
 {
 class Window
 {
@@ -27,4 +27,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_WINDOW_H
+#endif // !FOUNDATION_WINDOW_H

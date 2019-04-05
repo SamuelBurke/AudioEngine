@@ -7,8 +7,8 @@
 
 int main()
 {
-	std::shared_ptr<AudioEngine::Foundations> foundation = AudioEngine::Foundations::Init();
-	std::shared_ptr<AudioEngine::Entity> temp = foundation->AddEntity();
+	std::shared_ptr<Foundation::Foundations> foundation = Foundation::Foundations::Init();
+	std::shared_ptr<Foundation::Entity> temp = foundation->AddEntity();
 	std::shared_ptr<Snake> temp2 = temp->AddComponent<Snake>();
 
 	std::shared_ptr<AudioEngine::AudioMaster> am = AudioEngine::AudioMaster::initialise();
@@ -16,6 +16,8 @@ int main()
 	sound->Play();
 
 	foundation->Loop();
+
+	am->cleanup();
 
 	return 0;
 }

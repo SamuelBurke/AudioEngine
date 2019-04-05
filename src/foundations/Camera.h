@@ -1,5 +1,5 @@
-#ifndef AUDIOENGINE_CAMERA_H
-#define AUDIOENGINE_CAMERA_H
+#ifndef FOUNDATION_CAMERA_H
+#define FOUNDATION_CAMERA_H
 
 #define GLM_FORCE_CTOR_INT
 
@@ -10,7 +10,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-namespace AudioEngine
+namespace Foundation
 {
 class Camera : public Component
 {
@@ -40,4 +40,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_CAMERA_H
+#endif // !FOUNDATION_CAMERA_H

@@ -1,5 +1,5 @@
-#ifndef AUDIOENGINE_TRANSFORM_H
-#define AUDIOENGINE_TRANSFORM_H
+#ifndef FOUNDATION_TRANSFORM_H
+#define FOUNDATION_TRANSFORM_H
 
 #define GLM_FORCE_CTOR_INT
 #include <glm/glm.hpp>
@@ -8,7 +8,7 @@
 
 #include "Component.h"
 
-namespace AudioEngine
+namespace Foundation
 {
 class Transform : public Component
 {
@@ -33,4 +33,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_TRANSFORM_H
+#endif // !FOUNDATION_TRANSFORM_H

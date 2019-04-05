@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-using namespace AudioEngine;
+using namespace Foundation;
 
 int Window::m_width = 920;
 int Window::m_height = 920;

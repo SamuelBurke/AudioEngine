@@ -2,7 +2,7 @@
 
 #include <SDL2/SDL.h>
 
-using namespace AudioEngine;
+using namespace Foundation;
 
 void Environment::Init()
 {

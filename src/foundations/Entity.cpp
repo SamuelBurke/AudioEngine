@@ -1,6 +1,6 @@
 #include "Entity.h"
 
-using namespace AudioEngine;
+using namespace Foundation;
 
 void Entity::Update(float _deltaTime)
 {

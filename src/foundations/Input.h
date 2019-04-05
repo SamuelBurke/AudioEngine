@@ -1,9 +1,9 @@
-#ifndef AUDIOENGINE_INPUT_H
-#define AUDIOENGINE_INPUT_H
+#ifndef FOUNDATION_INPUT_H
+#define FOUNDATION_INPUT_H
 
 #include <SDL2/SDL.h>
 
-namespace AudioEngine
+namespace Foundation
 {
 class Input
 {
@@ -18,4 +18,4 @@ private:
 };
 }
 
-#endif // !AUDIOENGINE_INPUT_H
+#endif // !FOUNDATION_INPUT_H
