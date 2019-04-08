@@ -3,6 +3,9 @@
 
 #include "Foundations.h"
 #include "Entity.h"
-#include "Window.h"
+#include "Component.h"
+#include "MeshRenderer.h"
+#include "Transform.h"
+#include "Camera.h"
 
 #endif // !FOUNDATION_FUNDAMENTALS

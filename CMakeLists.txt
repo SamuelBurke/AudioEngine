@@ -58,6 +58,7 @@ add_library(foundations
 	src/foundations/VertexBuffer.h
 	src/foundations/VertexArray.h
 	src/foundations/Shader.h
+	src/foundations/MeshRenderer.h
 	src/foundations/Texture.h
 	src/foundations/Window.h
 	src/foundations/Environment.h
@@ -71,10 +72,13 @@ add_library(foundations
 	src/foundations/VertexBuffer.cpp
 	src/foundations/VertexArray.cpp
 	src/foundations/Shader.cpp
+	src/foundations/MeshRenderer.cpp
 	src/foundations/Texture.cpp
 	src/foundations/Window.cpp
 	src/foundations/Environment.cpp
 	src/foundations/Input.cpp
+
+	contrib/stb_image/stb_image.cpp
 )
 
 add_executable(game

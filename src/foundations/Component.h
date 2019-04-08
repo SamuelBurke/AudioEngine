@@ -7,6 +7,7 @@ namespace Foundation
 {
 class Entity;
 class Foundations;
+class Transform;
 
 class Component
 {
@@ -17,6 +18,7 @@ public:
 
 	std::shared_ptr<Foundations> GetFoundation();
 	std::shared_ptr<Entity> GetEntity();
+	std::shared_ptr<Transform> GetTransform();
 
 private:
 	std::weak_ptr<Entity> m_entity; // parent entity
